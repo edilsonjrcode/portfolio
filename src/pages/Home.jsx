@@ -1,11 +1,14 @@
+import { About } from "../components/About"
 import { Header } from "../components/Header"
+import { Principal } from "../components/Principal"
 
 function Home() {
 
   return (
     <>
       <Header/>
-      <h1>Hello World</h1>
+      <Principal/>
+      <About/>
     </>
   )
 }
