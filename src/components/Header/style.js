@@ -2,12 +2,15 @@ import styled from "styled-components";
 import { theme } from "../../style/theme";
 
 export const Header = styled.header`
+    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: ${theme.colors.black};
     padding: 0rem 8.75vw;
     height: 6.5rem;
+    width: 100%;
+    z-index: 5;
 `
 export const Nav = styled.nav`
     display: flex;
@@ -29,13 +32,17 @@ export const Nav = styled.nav`
 `
 
 export const ResponsiveNav = styled.nav`
+    position: fixed;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     height: 100vh;
+    width: 100%;
+    overflow: hidden;
     background: ${theme.colors.black};
-    padding: 4rem 0rem;
+    padding: 10rem 0rem;
+    z-index: 4;
 
     a {
         display: flex;

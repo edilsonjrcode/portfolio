@@ -1,10 +1,15 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import * as Styled from "./style.js";
 import closeMenu from "../../assets/closeMenu.svg";
 import menuHamburguer from "../../assets/menuHamburguer.svg";
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    document.body.style.overflow = isOpen? 'hidden' : 'auto'
+    return () => (document.body.style.overflow = 'auto')
+  }, [isOpen])
 
   return (
     <>
