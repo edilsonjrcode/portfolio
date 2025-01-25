@@ -34,8 +34,8 @@ export const ResponsiveNav = styled.nav`
     text-align: center;
     justify-content: center;
     height: 100vh;
-    width: 100vw;
     background: ${theme.colors.black};
+    padding: 4rem 0rem;
 
     a {
         display: flex;
@@ -60,4 +60,9 @@ export const ResponsiveMenu = styled.img`
     height: 1.1875rem;
     flex-shrink: 0;
     margin-top: 2.5rem;
+    display: none;
+
+    @media (max-width: 768px) {
+        display: block;
+    }
 `
