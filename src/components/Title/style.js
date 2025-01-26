@@ -15,4 +15,9 @@ export const TitleStyle = styled.h1`
         line-height: 4rem;
         margin-bottom: 2.5rem;
     }
+
+    @media (max-width: 320px) {
+        font-size: 3.125rem;
+        line-height: 3.125rem;
+    }
 `
