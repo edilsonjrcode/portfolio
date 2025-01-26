@@ -105,7 +105,7 @@ export const PessoalImg = styled.img`
     padding: 6rem 0rem 0rem 0rem;
 
     @media (max-width: 1380px) {
-        height: 70rem;
+        height: 50rem;
         padding: 0rem;
     }
 

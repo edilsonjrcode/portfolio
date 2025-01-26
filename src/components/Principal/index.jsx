@@ -1,5 +1,4 @@
 import * as Styled from "./style.js";
-import * as SharedStyle from "../../style/sharedStyles.js";
 import photoJr from '../../assets/photoJr.png'
 import githubIcon from '../../assets/socialMedia/githubIcon.svg'
 import googleIcon from '../../assets/socialMedia/googleIcon.svg'
