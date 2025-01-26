@@ -13,17 +13,19 @@ export const Principal = () => {
   return (
     <>
       <Styled.Container>
-        <Styled.BoxPrincipal display="flex" flexdirection="row" justifycontent="space-between" alignitems="center">
-          <Styled.Information display="flex" flexdirection="column" justifycontent="flex-start" alignitems="flex-start">
-            <Styled.BoxHello display="flex" flexdirection="row" justifycontent="flex-start" alignitems="center">
-              <SharedStyle.Rectangle widthrectangle="5.5625rem" heigthrectangle="0.6875rem" color="red" marginright="1rem"/>
-              Olá, me chamo Edilson Júnior
-            </Styled.BoxHello>
+        <Styled.BoxPrincipal>
+          <Styled.Information>
 
-            <Title text="Frontend Developer" margin="4rem"/>
+            <Styled.BoxTitle>
+              <Styled.BoxHello>
+                <Styled.RectangleHorizontal widthrectangle="5.5625rem" heigthrectangle="0.6875rem" color="red" marginright="1rem"/>
+                <p>Olá, me chamo Edilson Júnior</p>
+              </Styled.BoxHello>
+              <Title text="Frontend Developer" margin="4rem"/>
+            </Styled.BoxTitle>
 
-            <Styled.BoxApresentation display="flex" flexdirection="row" justifycontent="flex-start" alignitems="flex-start">
-              <SharedStyle.Rectangle widthrectangle="1.34544rem;" heigthrectangle="11.3rem" color="red" marginright="1rem"/>
+            <Styled.BoxApresentation>
+              <Styled.RectangleVertical widthrectangle="1.34544rem;" heigthrectangle="11.3rem" color="red" marginright="1rem"/>
               <Styled.BoxViewPortfolio>
                 <Styled.SocialMedia>
                   <img src={linkedinIcon} alt="Icone Linkedin"/>
@@ -36,6 +38,7 @@ export const Principal = () => {
                 <Button text="Ver Portfólio"/>
               </Styled.BoxViewPortfolio>
             </Styled.BoxApresentation>
+
           </Styled.Information>
           <Styled.PessoalImg src={photoJr} alt="" />
         </Styled.BoxPrincipal>
