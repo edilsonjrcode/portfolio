@@ -8,4 +8,11 @@ export const TitleStyle = styled.h1`
     width: 45rem;
     margin-bottom: ${(props) => props.margin};
     text-align: ${(props) => props.align};
+
+    @media (max-width: 768px) {
+        font-size: 3.125rem;
+        width: 18rem;
+        line-height: 3.125rem;
+        margin-bottom: 2%.5;
+    }
 `
