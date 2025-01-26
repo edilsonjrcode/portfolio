@@ -19,6 +19,7 @@ export const Skills = () => {
     <>
       <Styled.Container>
         <Styled.BoxSkills>
+
           <Styled.BoxTech>
           <CardTech image={html} text="HTML"/>
           <CardTech image={css} text="CSS"/>
@@ -32,10 +33,10 @@ export const Skills = () => {
           <CardTech image={figma} text="FIGMA"/>
           </Styled.BoxTech>
 
-        <Styled.BoxTexts>
+          <Styled.BoxTexts>
             <Title text="Skills." align="left" margin="1.75rem"/>
-            <SharedStyle.ParagrathSections align="left" widthrectangle="27.25rem">Olá, meu nome é Edilson Júnior, sou Desenvolvedor Frontend com 2 anos de experiência. Moro em João Pessoa - PB, e sou apaixonado por criar interfaces modernas, intuitivas e acessíveis. Minha jornada como desenvolvedor começou com um forte interesse em transformar ideias em experiências digitais cativantes.
-            <br/><br/>Nos últimos dois anos, trabalhei com diversas tecnologias e sempre me desafiei a aprender novas ferramentas para contribuir na entrega de soluções inovadoras.</SharedStyle.ParagrathSections>
+            <Styled.ParagrathSkills align="left" widthrectangle="27.25rem">Olá, meu nome é Edilson Júnior, sou Desenvolvedor Frontend com 2 anos de experiência. Moro em João Pessoa - PB, e sou apaixonado por criar interfaces modernas, intuitivas e acessíveis. Minha jornada como desenvolvedor começou com um forte interesse em transformar ideias em experiências digitais cativantes.
+            <br/><br/>Nos últimos dois anos, trabalhei com diversas tecnologias e sempre me desafiei a aprender novas ferramentas para contribuir na entrega de soluções inovadoras.</Styled.ParagrathSkills>
             <br/>
             <SharedStyle.Rectangle widthrectangle="10.25rem" heigthrectangle="0.6875rem" color="black"/>
           </Styled.BoxTexts>
