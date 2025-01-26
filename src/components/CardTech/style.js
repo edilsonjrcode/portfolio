@@ -12,6 +12,11 @@ export const DivCard = styled.div`
     img {
         margin-bottom: 0.99rem;
     }
+
+    @media (max-width: 768px) {
+        ${() => BoxFlex('flex', 'column', 'center', 'center')}
+        flex: 0 0 50%
+    }
 `
 
 export const TextStyle = styled.h1`

@@ -10,9 +10,9 @@ export const TitleStyle = styled.h1`
     text-align: ${(props) => props.align};
 
     @media (max-width: 768px) {
-        font-size: 3.125rem;
+        font-size: 4rem;
         width: 18rem;
-        line-height: 3.125rem;
-        margin-bottom: 2%.5;
+        line-height: 4rem;
+        margin-bottom: 2.5rem;
     }
 `
