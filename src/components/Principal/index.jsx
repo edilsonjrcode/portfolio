@@ -27,10 +27,10 @@ export const Principal = () => {
               <Styled.RectangleVertical widthrectangle="1.34544rem;" heigthrectangle="11.3rem" color="red" marginright="1rem"/>
               <Styled.BoxViewPortfolio>
                 <Styled.SocialMedia>
-                  <img src={linkedinIcon} alt="Icone Linkedin"/>
-                  <img src={instagramIcon} alt="Icone Instagram"/>
-                  <img src={githubIcon} alt="Icone Github"/>
-                  <img src={googleIcon} alt="Icone Google"/>
+                  <a href="https://www.linkedin.com/in/edilson-junior-5507bb230/" target="_blank"><img src={linkedinIcon} alt="Icone Linkedin"/></a>
+                  <a href="https://www.instagram.com/jr.nasci/" target="_blank"><img src={instagramIcon} alt="Icone Instagram"/></a>
+                  <a href="https://github.com/edilsonjrcode" target="_blank"><img src={githubIcon} alt="Icone Github"/></a>
+                  <a href="mailto:edilsonjrcode@gmail.com" target="_blank"><img src={googleIcon} alt="Icone Google"/></a>
                 </Styled.SocialMedia>
                 <Styled.Paragraph>Sou um desenvolvedor frontend apaixonado por criar interfaces dinâmicas e experiências web incríveis. Abaixo você encontrará alguns dos projetos que refletem meu trabalho, meu aprendizado e minha dedicação.
                 Vamos explorar juntos?</Styled.Paragraph>
